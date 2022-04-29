@@ -1,0 +1,16 @@
+[
+      {
+        "title": "Um empate com sabor continental",
+        "imgbig": "img/imgbig/news4.jpg",
+        "imgmid": "img/imgmid/news4.jpg",
+        "description": "Um derby sem vencedores ou perdedores talvez pareça menos um derby. Mas a verdade é que Bétis e Sevilha, com o empate a dois, ofereceram um jogo emocionante, intenso, cheio de alternativas e com uma tensão que praticamente podia ser cortada no ambiente. Um duelo em grande estilo, com o Velho Continente no horizonte, onde ambos jogarão na próxima temporada.",
+        "datetime": "12/5/2018 | 14:00"
+      },
+      {
+        "title": "Um grande gol de Vietto que leva o Valencia CF aos 70 pontos.",
+        "imgbig": "img/imgbig/news5.jpg",
+        "imgmid": "img/imgmid/news5.jpg",
+        "description":"O Valencia CF recuperou o sabor da vitória na última viagem da temporada graças a um grande golo de Vietto. Sim, Luciano Vietto. Ele não marcava desde o último Derby, três meses decorridos entre 11 de fevereiro e 12 de maio em que Marcelino e Alemany reuniram argumentos suficientes para não exercer a opção de contratar o argentino para a próxima temporada.",
+        "datetime": "12/5/2018 | 16:00"
+      }
+]

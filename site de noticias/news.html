@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>FutNews - Diario online de futebol espanhol e internacional</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Noticias, resultados e estatísticas do futebol espanhol e internacional">
+	<meta property="og:site_name" content="FutNews - Diario online de futebol espanhol e internacional">
+	<meta property="og:url" content="https://rawgit.com/Marcroman181/news/master/news.html">
+	<meta property="og:title" content="FutNews - Diario online de futebol espanhol e internacional">
+	<meta property="og:image" content="https://rawgit.com/Marcroman181/news/master/img/compartir.jpg">
+	<meta property="og:description" content="Noticias, resultados e estatísticas do futebol espanhol e internacional">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+	<link rel='stylesheet' href='css/css.css'>
+	<link rel="alternate" type="application/rss+xml" title="rss" href="rss/rss.xml">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="js/js.js"></script>
+</head>
+<body>
+
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>  
+				</button>
+				<div class="navbar-brand"><a href="news.html"><p class="textbarra">FutNews</p></a></div>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="news.html">FutNews</a></li>
+					<li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#"><p class="textbarra">Ligas</p><span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">La Liga Santander   <img class="icons" src=img/laliga.png alt="LaLiga"></a></li>
+							<li><a href="#">LaLiga1|2|3   <img class="icons" src=img/laliga.png alt="LaLiga"></a></li>
+							<li><a href="#">Premier League   <img class="icons" src=img/premier.png alt="Premier league"></a></li>
+							<li><a href="#">Bundesliga   <img class="icons" src=img/bundesliga.png alt="Bundesliga"></a></li>
+						</ul>
+					</li>
+					
+					<li>
+						<a class="dropdown-toggle" data-toggle="dropdown" href="#"><p class="textbarra">Outras Competições</p><span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Champions League   <img class="icons" src=img/champions.png alt="Champions league"></a></li>
+							<li><a href="#">Europa League   <img class="icons" src=img/europa.png alt="Europa league"></a></li>
+						</ul>
+					</li>
+				</ul>
+				<form class="navbar-form navbar-left" action="/action_page.php">
+					<div class="input-group">
+						<input id="search" type="text" class="form-control" placeholder="Buscar equipe" name="search">
+						<div class="input-group-btn">
+							<button class="btn btn-default" type="submit">
+								<i class="glyphicon glyphicon-search"></i>
+							</button>
+						</div>
+					</div>
+				</form>
+				
+				<ul class="nav navbar-nav navbar-right">
+					<li id="botonscroll1" class="botonscroll">
+						<p id="scrollp" class="textbarra">Scroll desativado</p>
+						
+					</li>
+					<li id="botonscroll2" class="botonscroll">	
+						<i id="scrollon" class="fas fa-toggle-on fa-2x"></i>	
+						<i id="scrolloff" class="fas fa-toggle-off fa-2x"></i>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div id="logo" class="jumbotron text-center">
+		<img class="logoimg" src=img/futnews.png alt="FutNews">
+		<img class="logoimg" src=img/logo.png alt="Logo FutNews">
+	</div>
+
+	<div id="principal" class="container">	
+		<div id="publicidad"><iframe id="anuncio" src="adds.html"></iframe></div>
+
+		<div id="contenido" class="thumbnail">
+
+
+			<img id="news1" class="img-responsive foto" src=img/imgmid/news1.jpg alt="Messi ganha a Liga de uma forma incontestável" data-toggle="modal" data-target="#myModal">
+			<div class="caption">
+				<h2 class="text-left"><a href="news1.html"><b>Messi ganha a Liga de uma forma incontestável</b></a></h2>
+				<h6 class="text-justify">O Barcelona inegavelmente conquistou a Liga, sem se arrepender de uma única derrota. Com Messi estrelando, selando o título e ganhando a Chuteira de Ouro graças a um Hat trick. No estádio Riazor e ao longo da temporada, Messi e todos os jogadores do Barça foram muito superiores ao seu rival, enviando o Déportivo para a Segunda Divisão.</h6>
+				<p class="text-right"><em>29/04/2018 | 22:00</em></p>
+			</div>
+
+
+		</div>
+
+		<div class="container" id="contenidor">
+			<div class="row">
+				<div class="col-sm-6">
+					
+					<div class="thumbnail">
+						<img id="news2" class="img-responsive foto" src=img/imgmid/news2.jpg alt="El Real Madrid se clasifica en la final de la Champions League" data-toggle="modal" data-target="#myModal">
+						<div class="caption">
+							<h2 class="text-left"><a href="news2.html"><b>Real Madrid classifica-se para a final da Liga dos Campeões</b></a></h2>
+							<h6 class="text-justify">O Real Madrid vai disputar a final da Liga dos Campeões pelo terceiro ano consecutivo depois de empatar 2-2 na segunda partida das semi-finais com um superior Bayern de Munique também na segunda partida esta terça-feira no Santiago Bernabéu, onde se submeteu a continuar sendo pior que o atual campeão, agarrando-se ao seu instinto de sobrevivência e que teve grandes atuações de Keylor Navas e Karim Benzema.</h6>
+							<p class="text-right"><em>01/05/2018 | 23:30</em></p>
+						</div>
+					</div>
+					
+				</div>
+				<div class="col-sm-6">
+					<div class="thumbnail">
+						<img id="news3" class="img-responsive foto" src=img/imgmid/news3.jpg alt="El Atlético gana al Arsenal y pasa a la final de la Europa League" data-toggle="modal" data-target="#myModal">
+						<div class="caption">
+							<h2 class="text-left"><b>Atlético vence Arsenal e vai à final da Liga Europa</b></h2>
+							<h6 class="text-justify">O Atlético volta a disputar a final da Liga Europa, competição que venceu pela última vez em 2012, depois de se livrar do Arsenal na quinta-feira no Wanda Metropolitano. A eliminatória foi totalmente aberta para o Wanda Metropolitano após 1-1 em Londres, mais um gol de Diego Costa (1-0) fechou o bilhete dos Colchoneros para a final contra o Lyon.</h6>
+							<p class="text-right"><em>03/05/2018 | 23:30</em></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div id="divcargar" class="jumbotron text-center"><button type="button" id="cargar" class="btn btn-default">Carregar mais noticias</button></div>
+
+		<div class="jumbotron text-center" id="NoNews">
+			<div id="NoNews-center"><h3>Não tem mais noticias</h3></div>
+		</div>
+	</div>
+	<div class="jumbotron text-center" id="publicidadMovil">
+		<iframe id="anuncimovil" src="adds-movil.html"></iframe>
+	</div>
+	<div id="cargando" class="jumbotron text-center"><i class="fa fa-spinner fa-spin"></i></div>
+
+	<div class="modal fade" id="myModal" role="dialog">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+					<h4 id="textmodal" class="modal-title">Foto da noticia</h4>
+				</div>
+				<div class="modal-body">
+					<img id="imgmodal" class="img-responsive center-block" src=img/imgbig/news1.jpg alt="Foto da noticia">
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
