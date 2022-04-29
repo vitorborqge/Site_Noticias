@@ -1,5 +1,5 @@
 # Site de Noticias
-Um site de catálogo de produtos responsivo.
+Um site de noticias responsivo.
 
 Mais informações na seção: Sobre o site
 
