@@ -1,7 +1,7 @@
-# projeto_catalogo
+# Site de Noticias
 Um site de catálogo de produtos responsivo.
 
 Mais informações na seção: Sobre o site
 
-<a href="https://github.com/vitorborqge/Catalogo_Produtos">Acesse por meio deste link
+<a href="https://github.com/vitorborqge/Site_Noticias">Acesse por meio deste link
 <a>
